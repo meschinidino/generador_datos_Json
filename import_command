@@ -1,0 +1,4 @@
+mongoimport --db notnetflix --collection movies --file movies.json --jsonArray --username dino --password 107094 --authenticationDatabase admin
+
+
+ mongosh --username dino --password 107094 --authenticationDatabase admin
